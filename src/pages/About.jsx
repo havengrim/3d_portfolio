@@ -85,6 +85,7 @@ const About = () => {
           </VerticalTimeline>
       </div>
     </div>
+    
     </section>
   )
 }
