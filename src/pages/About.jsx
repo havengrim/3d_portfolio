@@ -3,15 +3,16 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 
 import { skills, experiences } from '../constants'
+import  CTA  from '../components/CTA'
 
 const About = () => {
   return (
     <section className='max-container'>
-      <h1 className='head-text'>Hello, I'm<span className='blue-gradient_text font-semibold drop-shadow'>Angelo</span></h1>
+      <h1 className='head-text'>Hello, I'm <span className='blue-gradient_text font-semibold drop-shadow'>Angelo</span></h1>
    
     <div className='mt-5 flex flex-col gap-3 text-slate-500'>
       <p>
-        Front End Developer in Philippines, scpecializing in technical education through hands-on learning and building.
+      Discover a collection of my diverse projects showcasing creativity and innovation. From web development to design, each project reflects my commitment to excellence in the digital space.
       </p>
     </div>
 
@@ -86,6 +87,7 @@ const About = () => {
       </div>
     </div>
     
+    <CTA />
     </section>
   )
 }
